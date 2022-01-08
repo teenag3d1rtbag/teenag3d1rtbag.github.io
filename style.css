@@ -1,0 +1,159 @@
+body {
+  background-color: #1f1938;
+}
+
+@media screen and (min-width: 810px) {
+  h1 {
+    font-family: 'Akira Expanded', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: #F9ECD3;
+  }
+
+  p {
+    font-family: 'Quasimoda', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #F9ECD3;
+  }
+
+  footer {
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width:810px) {
+  h1 {
+    font-family: 'Akira Expanded', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #F9ECD3;
+  }
+
+  p {
+    font-family: 'Quasimoda', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #F9ECD3;
+  }
+
+  footer {
+    right: 15px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    font-family: 'Akira Expanded', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: #F9ECD3;
+  }
+
+  p {
+    font-family: 'Quasimoda', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #F9ECD3;
+  }
+
+  footer {
+    right: 5px;
+    height: 95px;
+    width: 95px;
+    padding-right: 5px;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 45%;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 75%;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 45%;
+}
+
+input.btn:active {
+  background: #BD716B;
+  width: 250px;
+  height: 26px;
+}
+
+.btn {
+  background: #BA574C;
+  border-color: #BD716B;
+  font-family: 'Quasimoda', sans-serif;
+  font-size: 15px;
+  color: #F9ECD3;
+  text-align: center;
+  cursor: pointer;
+  width: 250px;
+  height: 26px;
+  margin: 5px;
+}
+
+.button {
+  background: #BD716B;
+  border-color: #BD716B;
+  font-family: 'Quasimoda', sans-serif;
+  font-size: 15px;
+  color: #F9ECD3;
+  text-align: center;
+  width: 250px;
+  height: 26px;
+  margin: 5px;
+}
+
+.horizontal {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+a {
+  color: purple;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: #BD716B;
+}
+
+a:active {
+  color: purple;
+}
